@@ -42,18 +42,19 @@ Get-AppxPackage *XboxGamingOverlay* | Remove-AppxPackage
 Get-AppxPackage -Publisher *Microsoft* | Remove-AppxPackage
 
 <#
-The sample scripts are not supported under any Microsoft standard support 
-program or service. The sample scripts are provided AS IS without warranty  
-of any kind. Microsoft further disclaims all implied warranties including,  
-without limitation, any implied warranties of merchantability or of fitness for 
-a particular purpose. The entire risk arising out of the use or performance of  
-the sample scripts and documentation remains with you. In no event shall 
-Microsoft, its authors, or anyone else involved in the creation, production, or 
-delivery of the scripts be liable for any damages whatsoever (including, 
-without limitation, damages for loss of business profits, business interruption, 
-loss of business information, or other pecuniary loss) arising out of the use 
-of or inability to use the sample scripts or documentation, even if Microsoft 
-has been advised of the possibility of such damages.
+Die Beispielskripte werden von keinem Standard-Supportprogramm oder -dienst von Microsoft unterstützt. 
+Programm oder Dienst unterstützt. Die Beispielskripte werden ohne Mängelgewähr bereitgestellt  
+jeglicher Art. Microsoft lehnt außerdem alle stillschweigenden Garantien ab, einschließlich,  
+ohne Einschränkung, jegliche stillschweigende Gewährleistung der Marktgängigkeit oder der Eignung 
+einen bestimmten Zweck. Das gesamte Risiko, das sich aus der Verwendung oder Leistung der  
+der Beispielskripte und der Dokumentation entsteht, liegt bei Ihnen. In keinem Fall werden 
+Microsoft, seine Autoren oder andere Personen, die an der Erstellung, Produktion oder 
+oder Lieferung der Skripte beteiligt sind, für Schäden jeglicher Art haftbar gemacht werden (einschließlich, 
+ohne Einschränkung, für Schäden aus entgangenem Gewinn, Betriebsunterbrechung 
+Geschäftsunterbrechung, Verlust von Geschäftsinformationen oder anderen Vermögensschäden), die aus der Nutzung 
+oder der Unmöglichkeit der Verwendung der Beispielskripte oder der Dokumentation, selbst wenn Microsoft 
+auf die Möglichkeit solcher Schäden hingewiesen wurde.
+
 #> 
 
 #requires -Version 3
